@@ -2,11 +2,12 @@
 <html lang="en-US">
 
 <head>
-    <TITLE>Vincent Personal Profile </TITLE>
+    <TITLE>Vincent Personal Porftfolio </TITLE>
     <meta name="author" content="Vincent Mutua">
-    <meta http-equiv="refresh" content="60">
+    <!--meta http-equiv="refresh" content="60" -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <H1 style="font-family:verdana;"> Vincent Mutua Personal Profile </H1>
+    <H1 style="font-family:verdana;"> Vincent Mutua Personal Porftfolio </H1>
+
     <STYLE type="text/css">
         H1 {
             text-align: left
@@ -15,69 +16,135 @@
         body {
             background-color: rgb(152, 223, 233);
         }
+        
         ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
-  font-size: 160%
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111111;
-}
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
-}
-</style>
-
-<div class="footer">
-  <h2><i>Did you know..?</i></h2>
-  <p>Vincent is a tech-enthusiast with a passion to feed the world? Now you know :-).</p>
-</div>
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333333;
+            font-size: 160%
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color: #111111;
+        }
+        
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: red;
+            color: white;
+            text-align: center;
+        }
+    </style>
+    <div class="footer">
+        <h2><i>Did you know..?</i></h2>
+        <p>Vincent is a tech-enthusiast with a passion to feed the world? Now you know :-).</p>
+    </div>
     </STYLE>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .left {
+            background-color: #2196F3;
+            padding: 20px;
+            float: left;
+            width: 20%;
+            /* The width is 20%, by default */
+        }
+        
+        .main {
+            background-color: #f1f1f1;
+            padding: 20px;
+            float: left;
+            width: 60%;
+            /* The width is 60%, by default */
+        }
+        
+        .right {
+            background-color: #4CAF50;
+            padding: 20px;
+            float: left;
+            width: 20%;
+            /* The width is 20%, by default */
+        }
+        /* Use a media query to add a break point at 800px: */
+        
+        @media screen and (max-width:800px) {
+            .left,
+            .main,
+            .right {
+                width: 100%;
+                /* The width is 100%, when the viewport is 800px or smaller */
+            }
+        }
+    </style>
 </head>
 
 <body>
-   
-<ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
-   <img src=" images/Vincent_profile.jpg?raw=true " alt="Vincent Profile Photo " style=width:104px; height:142px ";/>
-<br>
-<h2>Attributes </h2>
 
-CONFIDENT, ABSTRACT, ASSERTIVE, OPEN TO CHANGE, ENTHUSIASTIC, HIGH-ENERGY
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+    <img src=" images/Vincent_profile.jpg?raw=true " alt="Vincent Profile Photo " style=width:104px; height:142px ";/>
 <br>
-<h2> Summary </h2>
-<p style="color:rgb(0, 47, 255); ">
-    Logic, patience, communication, and attention to detail are my underlying strengths. I have a knack for not panicking in the face of complexity. I break things down into manageable chunks, and tackle them with the tools at my disposal.Things I'm into:
-    planning, building structures, thinking in systems, puzzles, adapting to change and learning new technologies.
-</p>
-<br><br>
-<a href="https://www.linkedin.com/in/vincent-mutua-b4b87724/" target="_blank"> My LinkedIn Profile</a>
+
+<br>
+
+<p></p>
+<p>Welcome to my portfolio.I am glad you are here. </p>
+
+<div class="left ">
+  <!-- <p>Left Menu</p> -->
+  <h2>Attributes </h2>
+  <ol type="A ">
+      <li>CONFIDENT </li> <br>
+      <li>ABSTRACT </li> <br>
+      <li>ASSERTIVE </li> <br>
+      <li>OPEN TO CHANGE </li> <br>
+      <li>ENTHUSIASTIC </li> <br>
+      <li>HIGH-ENERGY </li> <br>
+     
+  </ol>
+</div>
+
+<div class="main ">
+    <p> </p>
+  <!-- <p>Main Content</p> -->
+  <h2> Summary </h2>
+  <p style="color:rgb(0, 47, 255); ">
+      Logic, patience, communication, and attention to detail are my underlying strengths. I have a knack for not panicking in the face of complexity. I break things down into manageable chunks, and tackle them with the tools at my disposal.Things I'm into:
+      planning, building structures, thinking in systems, puzzles, adapting to change and learning new technologies.
+  </p>
+</div>
+
+<div class="right ">
+  <!-- <p>Right Content</p> -->
+  <p>Others</p>
+
+<h5> <i>Links </i></h5>
+<a href="https://www.linkedin.com/in/vincent-mutua-b4b87724/ " target="_blank "> My LinkedIn Profile</a>
+</div>
 </body>
 
 </html>
